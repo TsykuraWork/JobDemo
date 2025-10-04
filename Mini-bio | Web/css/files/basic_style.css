@@ -1,0 +1,458 @@
+/* ------------- �������� ���� ------------------------------------------------------------------------------ */
+
+body {  /* ���� ��������� */
+    background-image: url('../images/bg1.png');
+  margin: 0pt;
+  margin-bottom: 20pt;
+}
+
+/* ������ ������� ��� ������ ������ (��� <q>) */
+body:lang(en) q { quotes: "\201C" "\201D" "\2018" "\2019"; }
+body:lang(ua) q, body:lang(de) q { quotes: "\201E" "\201C"; }
+body:lang(ru) q, body:lang(fr) q { quotes: "\00AB" "\00BB" "\201E" "\201C"; }
+
+h1 { /* ��������� �������� */
+  font: 31px Roboto;
+  line-height: 100%;
+  text-align: center;
+  padding: 0pt 0pt 0pt 0pt;
+  color: #000 !important;
+  margin-top: 39px;
+  margin-bottom: 39px;
+}
+
+h2 { /* ������������ �������� (�������� �����������) */
+  font: bold 24px Roboto, serif;
+  text-align: left;
+  text-indent: 25pt;
+  margin: 20pt 10pt 10pt 10pt;
+  color: #4149f2;
+}
+
+h3 { /* ������������ �������� (�������� ��������������) */
+  font: bold 13pt Roboto, serif;
+  text-align: left;
+  text-indent: 10pt;
+  margin: 20pt 10pt 0pt 10pt;
+  color: #4149f2;
+}
+
+h2.cntr { /* ������������ �������� (�������� �����������) � ������������� �� ������ */
+  text-align: center;
+  text-indent: 0pt;
+}
+
+#header h1 { /* ��� � �����*/
+  text-align: left;
+  font: bold 18pt Roboto, serif; 
+  line-height: 90%;
+  padding: 4pt 0pt 0pt 0pt;
+  margin-top: 10pt;
+}
+
+#header h2 { /* ���� ������ � �����*/
+  font: bold 16pt Roboto, serif; 
+  line-height: 90%;
+  color: navy;
+  text-indent: 0pt;
+  margin: 0pt;
+  padding: 5pt 0pt 10pt 0pt;
+}
+
+#header h3 { /* ���������, �������, ������������� � �����*/
+  font: 14pt Roboto, serif; 
+  line-height: 100%;
+  color: navy;
+  text-indent: 0pt;
+  margin: 0pt;
+  padding: 5pt 0pt 10pt 0pt;
+}
+
+p { /* ����� */
+  text-indent: 20pt;
+  font: 13pt Roboto, serif; 
+  margin: 0pt 0pt 0pt 0pt;
+  padding: 2pt 15pt 3pt 15pt;         
+  text-align: justify;
+}
+
+img { 
+border: 0; 
+}
+
+ol { /* ������������ ������ */
+    text-indent: 0pt;
+    margin: 10pt 0pt 0pt 0pt;
+}
+
+ol h2 { /* ��������� ������ ������������� ������ */
+    text-indent: 0pt;
+    margin: 30pt 10pt 10pt 0pt;
+}
+
+p + ol { margin-top: 0pt;} /* ���� ������������ ������ ���� ����� ����� ������ - ������ �� ����� */
+
+ul { /* �������������� ������ */
+    text-indent: 0pt;
+    margin: 0pt;
+}
+
+ul.content { /* ���������� � �������� */
+    margin-left: 5pt;
+  list-style-type: none;
+}
+
+li { /* ������� ������ */
+  margin-left: 25pt;
+  font: 14pt Roboto, serif;
+  /*padding: 0 5pt 5pt 0pt; */
+}
+
+li.ct1 { /* ������� ���������� � �������� (������� 1) */
+  margin-left: 0pt;
+  padding: 2pt; 
+}
+
+li.ct2 { /* ������� ���������� � �������� (������� 2) */
+  margin-left: 20pt;
+  padding: 2pt; 
+}
+
+a { /* ������� ������ */
+  font: 14pt Roboto, serif;
+  color: black;
+}
+
+a:hover { /* ������ ������� �� ������ */
+  color: red;
+  text-decoration: none;
+}
+
+a:hover { /* ������ ������� �� ������ */
+  transition: color .2s ease-in-out;
+}
+
+/*a:visited {  ���������� ������ 
+  color: black;
+}*/
+
+/* ---------------------------------------------------------------------------------------------------------- */
+/* ------------- �������� ����� ----------------------------------------------------------------------------- */
+
+#topblock { /* ������� ���� (����� � ������) */
+  min-height: 36px;       
+  border-bottom: solid 1pt #b4cdd4;
+  background: rgba(0,0,0, .40);
+}
+
+#langbox { /* ���� ������ */
+    float: left;
+  padding: 5pt 0pt 0pt 5pt;
+}
+
+#donntu { /* ���� ������ � ������� ��������� */
+    float: right;
+    padding: 5pt 5pt 0pt 0pt;   
+    margin: 0pt 3pt 0pt 3pt;
+}
+
+#donntu a { /* ������ � ����� ������ */
+    font: 12pt Roboto, serif;
+  margin-left: 3pt;
+}
+
+#donntu a:visited { /* ������ � ����� ������ (���� ���������� �� ��������) */ 
+  color: blue;
+}
+
+#photomag { /* ���� ���������� */
+    float: left;
+    width: 180px;
+  padding: 10pt 20pt 10pt 10pt;  
+}
+
+#header { /* ���� ����� (���������� � �����) */
+    min-height: 270px;
+    clear: both;
+}
+
+#headertext { /* ���� ����� (������ �����) */
+  padding: 10pt 10pt 10pt 10pt;
+  background: rgba(0,0,0, .40);
+}
+
+.img { /* ���� � �������� */
+  margin: 15pt 0 30pt 0;
+  text-align: center;
+}
+
+.imgcaption { /* ������� ��� �������� */
+ font: italic 15pt/120% Times New Roman, serif;
+ margin: 0pt 0pt 0pt 0pt;
+ padding: 2pt 15pt 3pt 15pt;
+ text-align: center;
+}
+
+.comment { /* ���� � ������������ (� �������� ������ ����� �� ��������������)*/
+  background: lightsteelblue; 
+  color: white; 
+  font-size: 12pt; 
+  margin: 0pt 20pt 0pt 20pt; 
+  padding: 10pt 10pt 10pt 10pt; 
+  text-indent: 0;
+}
+
+.cntr { text-align: center; } /* ������������ �� ������ */
+.bld {font-weight: bold;}     /* ���������� */
+.itl {font-style: italic;}    /* ������ */
+
+/* ---------------------------------------------------------------------------------------------------------- */
+/* ------------- ������� ������ ----------------------------------------------------------------------------- */
+
+table#resume { /* ���� ������� */ 
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 0pt;
+}
+
+table#resume tr td {  /* ������ � ������� */
+    border: 0pt solid black;
+    padding: 6pt;
+}
+
+table#resume td.c1 { /* ������ ������� */ 
+  width: 25%; 
+  text-align: right; 
+  padding-right: 10pt; 
+  /*color: #1b005e;*/
+  color: #4149f2;
+}
+
+table#resume td.c2 { width: 75%; } /* ������ ������� */
+
+table#resume tr.odd { background-color: #f5f5f5;} /* �������� ������ */ 
+table#resume tr.even { background-color: white;}  /* ������ ������ */ 
+
+table#resume tr.odd:hover { background-color: #deebef;}  /* ������ ������� �� �������� ������ */
+table#resume tr.even:hover { background-color: #eefbff;} /* ������ ������� �� ������ ������ */
+
+/* ---------------------------------------------------------------------------------------------------------- */
+/* ------------- ����� ������ ���������� -------------------------------------------------------------------- */
+
+.lib { margin: 10pt 0pt 20pt 25pt; }
+
+.lib p { /* ����� � ������ ������ */
+    text-indent: 0pt;
+    margin: 4pt 0pt 0pt 0pt;
+}
+
+.lib .cat { /* �������� ��������� (�����, ��������, ��������) � �������� ������ ������ */
+    color: #150146;
+    font-weight: bold;
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+/* ------------- ����� ������ �������  ---------------------------------------------------------------------- */
+
+.list { margin: 5pt 0pt 12pt 25pt; }
+
+.list p { /* ����� ������ �������� ������ */
+  text-indent: 0pt;
+  margin: 4pt 0pt 0pt 0pt;
+}
+
+.list .cat { /* �������� ��������� (�����, ��������, ��������) � �������� ������ ������ */
+  color: #4149f2;
+  font-weight: bold;
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+/* ------------- ������� ������ � ������  ------------------------------------------------------------------- */
+
+table.search { /* ���� ������� */
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 40pt;
+  margin-top: 10pt;
+  border-collapse:collapse;
+  padding:0px;
+  text-align: center;
+}
+
+table.search tr td { /* ������ � ������� */ 
+  border: 1pt solid black; 
+  padding: 3pt;
+} 
+
+table.search td.c1 { /* ������ ������� */ 
+  width: 52%; 
+  text-align: left; 
+  padding-left: 10pt; 
+  color: #150146; 
+  font-size: 15pt;
+}
+  
+table.search td.cn { /* ��� ��������� ������� */ 
+  width: 12%; 
+  text-align: center; 
+}
+
+table.search td.cspan { padding: 8pt 5pt 8pt 0pt;} /* ������������ ������� (�������� �����)*/ 
+
+table.search tr.odd { background-color: white; }    /* �������� ������ */  
+table.search tr.even { background-color: #f5f5f5;}  /* ������ ������ */
+
+table.search tr.odd:hover { background-color: #eefbff;}  /* ������ ������� �� �������� ������ */
+table.search tr.even:hover { background-color: #deebef;} /* ������ ������� �� ������������ ������ ������ */
+
+table.search td.cspan p { /* ����� � ������������ ������� */ 
+  color: black; 
+  font: bold 13pt Roboto, serif; 
+  text-indent: 10pt; 
+  margin: 0;
+}
+  
+table.search td.cn a { /* ������ (���������� ��������� �����������) */ 
+  font-size: 13pt;
+  font-weight: bold; 
+  color: mediumblue;
+}  
+
+table.search td.cn a:visited { color: mediumblue; } /* ���������� ������ */
+table.search td.cn a:hover { color: firebrick; }    /* ������������ ������ */
+
+/* ---------------------------------------------------------------------------------------------------------- */
+/* ------------- ������ �������� ���� ----------------------------------------------------------------------- */
+
+.button { /* ���� ������ */
+  color: white;
+/*    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    text-align: center;*/
+    text-decoration: none;
+    font: 18px Roboto;
+    /*padding: .4em .6em .5em;*/
+    /*text-shadow: 0px 1px 1px rgba(0,0,0,.3);*/
+  /*margin: .5em .15em .0em .15em;*/
+    /*-webkit-border-radius: .4em; */
+    /*-moz-border-radius: .4em;*/
+    /*border-radius: .4em;*/
+    /*-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);*/
+    /*-moz-box-shadow: 0px 1px 2px rgba(0,0,0,.2);*/
+    /*box-shadow: 0px 1px 2px rgba(0,0,0,.2);*/
+  /*width: 14%;*/
+  /*height: 47px;*/
+}
+.button:active { /* ������� ������ */
+    position: relative;
+    top: 1px;
+}
+
+.bigrounded { /* ������ � ������������� ������ */
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    border-radius: 2em;
+}
+
+.color { /* ���� ������*/
+    color: #fff !important;
+    /*border: solid 1px #7496a2;*/
+    background: #4149F2;
+    /*background: -webkit-gradient(linear, left top, left bottom, from(white), to(#96c1d0));              /* chrome, safari, opera  */*/
+    /*background: -moz-linear-gradient(top,  #fff,  #96c1d0);                                             /* firefox */*/
+    /*filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='white', endColorstr='#96c1d0');  /* ie */*/
+}
+
+.color:visited { color: #6500c4; } /* ������ ���������� ������ */
+  
+.color:hover { /* �� ������ ������� ������ */
+    background: #007ead;
+    color: white;
+    text-decoration: none;    
+    background: -webkit-gradient(linear, left top, left bottom, from(#8cd0e9), to(#00678e));
+    background: -moz-linear-gradient(top,  #8cd0e9,  #00678e);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#8cd0e9', endColorstr='#00678e');
+}
+
+.color:active { /* ������� ������ */
+    color: white;
+    position: relative;
+    top: 1px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0078a5), to(#00adee));
+    background: -moz-linear-gradient(top,  #0078a5,  #00adee);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0078a5', endColorstr='#00adee');
+}
+
+.colorfix { /* ������ �������� ������� */
+    position: static;
+    top: 0px;
+    cursor: default;
+    color: #fff !important;
+    /*font-weight: bold;  */
+    /*text-shadow: 0px 0px 0px rgba(0,0,0,.0);*/
+    /*border: solid 1px #7496a2;*/
+    background: #000 !important;           
+    /*background: -webkit-gradient(linear, left top, left bottom, from(white), to(#ffd200));             /* chrome, safari, opera  */*/
+    /*background: -moz-linear-gradient(top,  white,  #ffd200);                                           /* firefox */*/
+    /*filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='white', endColorstr='#ffd200'); /* ie */*/
+}
+    
+.colorfix:active  { top: 0px; }         /* �������� ������ �� ������� ���� ��� ������� */
+.colorfix:hover   { color: #692f06; }     /* ���� ��� ��������� �� ������ */
+
+/* ����������� ����� */
+#navigationblock {
+  background-image: url(../../images/zig-zag.svg);
+}
+
+.menu-wrapper {
+    max-width: 100%;
+}
+
+#menu {
+/*  border: none !important;
+  background-color: #4149F2 !important;
+  height: 47px;
+  padding: 0 !important;*/
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    display: table;
+    width: 80%;
+    background: #4149f2;
+}
+
+#menu li {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    width: 11.11%;
+    vertical-align: bottom;
+    font-size: 18px;
+    white-space: nowrap;
+    
+    
+}
+
+#menu li a {
+    padding: 15px 30px;
+    /*height: 47px;*/
+    display: block;
+}
+
+#menu li a:hover {
+    background: rgba(255,255,255,.15);
+}
+
+#menu li a:hover {
+    transition: background .2s ease-in-out;
+}
+
+#menu li.active a {
+    background: #000 !important;
+}
+
+.hdr, #donntu a, .hdr a, .hdr a:visited {
+    color: #fff !important;
+}

@@ -1,0 +1,42 @@
+/* -------------- ОДНА КОЛОНКА ------------------------------------------------------------------------------ */
+
+#middleblock { /* Средний блок (меню и основной текст в двухколоночной верстке, только основной текст - в одноколоночной)*/
+}
+	
+#maintext { /* Блок основного текста */
+ 	font: 20px Roboto, serif;
+	line-height: 110%;
+  /*padding: 15pt 0pt 15pt 10pt;*/
+	position: relative; 
+	display: block;
+}
+
+#menu { /* Блок верхнего меню */
+	/*clear: both;*/
+	/*text-align: center;*/
+	/*padding: 2pt 0pt 10pt 0pt;*/
+  /*background: #e7eef0;	*/
+	/*border-top: solid 1pt #b4cdd4;	*/
+	/*border-bottom: solid 1pt #b4cdd4;*/
+}
+
+#menub { /* Блок нижнего меню */
+	clear: both;
+	text-align: center;
+	padding: 8pt 0pt 8pt 0pt;
+	background: #e7eef0;	
+	border-top: solid 1pt #b4cdd4;	
+	border-bottom: solid 1pt #b4cdd4;
+}
+
+.mitemb { /* Пункт нижнего меню */
+	font-size: 13pt; 	
+	margin-right: 12pt;
+}
+
+#sb{ /* Кнопки соцсетей */
+	clear: both;
+	text-align: center;
+	padding: 18pt 0pt 0pt 0pt;
+  background: white;	
+}

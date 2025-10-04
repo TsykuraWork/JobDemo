@@ -1,0 +1,157 @@
+#header h1 { color: #fff55d; font: bold 21pt/17pt  Georgia, serif; }
+
+#header h2 { color: #fffab0; font: bold 18pt/16pt  Georgia, serif; }
+ 
+#header h3 { color: #fffcef; font: normal 17pt/11pt  Georgia, serif; }
+
+h1 { font: bold 20pt  Georgia, serif; color: #8B4513; } 
+
+h2 { font: bold 16pt  Georgia, serif; color: #8B4513; }
+ 
+h3 { font: bold 14pt  Georgia, serif; color: #8B4513; }
+
+p {	font: 14pt/110%  Georgia, serif; }
+ 
+li { font: 14pt/100% Georgia, serif; }
+
+a {	font:  14pt  Georgia, serif; color: #14660d;}
+
+a:hover { text-decoration: none; }
+
+a:visited {	color: #a29e2a; }
+
+#topblock { 
+  border: none; 
+  background: #172601;
+  padding-bottom: 0pt; 
+  margin-bottom: 0pt;
+  }
+
+#donntu {padding-right: 10pt;} 
+
+#donntu a {	font: 13pt Georgia, serif; color: white; }
+
+#donntu a:visited {	color: white; }
+
+#header {
+  min-height: 255px;
+	background: #172601;
+	background: -webkit-gradient(linear, left top, left bottom, from(#172601), to(#A1A621));           
+	background: -moz-linear-gradient(top,  #172601,  #A1A621);                                           
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#172601', endColorstr='#A1A621'); 
+  border: 0;
+  margin-bottom: 0pt;
+}
+
+#headertext {
+  padding-top: 1pt;
+  padding-bottom: 1pt;
+}
+#photomag {
+  padding-top: 1pt;
+}
+
+#middleblock { 
+background: #ebe8e0;
+border: none;
+}
+
+#menu {
+	background: #A1A621;
+  background: -webkit-gradient(linear, left top, left bottom, from(#A1A621), to(#324001));           
+  background: -moz-linear-gradient(top,  #A1A621,  #324001);                                           
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#A1A621', endColorstr='#324001');
+  border: none;
+}
+
+#menub { 
+	background: #735F46;
+	border: none; 
+}
+  
+.mitemb         {	color: white; font-size: 15pt; padding-left: 3pt; padding-right: 3pt;}
+.mitemb:hover   { color: white; }
+.mitemb:visited { color: #f9fd90; }
+ 
+#maintext       { background: none; border: none; }
+
+table#resume                  { font: 14pt Georgia, serif;  border-collapse:collapse;}
+table#resume td.c1            { font-weight: bold; color: #083a04;}
+table#resume tr.odd           { background: none; }  
+table#resume tr.even          { background: none; }
+table#resume tr.odd:hover,
+table#resume tr.even:hover    { background: #d2d3b8;}  
+
+table.search                  { width: 86%; }
+table.search                  { font: 11pt Georgia, serif;}
+table.search tr.odd           { background: none; }      
+table.search tr.even          { background: none; }
+table.search tr.odd:hover,
+table.search tr.even:hover    { background: #d2d3b8;}  
+
+table.search td.c1            { font-size: 14pt; }
+table.search td.cn a          { color: brown; font-size: 13pt;  }
+table.search td.cn a:visited  { color: #8c5732; } 
+table.search td.cn a:hover    { color: firebrick; }    
+
+table.search td.cspan p {  
+  color: black; 
+  font: 900 15pt/80% Georgia, serif;
+  text-indent: 0pt; }
+
+table.search tr td { border: 1pt solid black; } 
+
+.button { 
+	font: 900 16pt/70% Garamond, serif;
+  margin: .7em .15em .11em .3em; 
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em; 
+	border: 0pt;
+	padding: .6em .6em .6em; }
+
+.color { 
+  text-shadow: none;
+	color: black; 
+	background: white;
+	background: -webkit-gradient(linear, left top, left bottom, from(white), to(#aa9882));              
+	background: -moz-linear-gradient(top,  #fff,  #aa9882);                                             
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='white', endColorstr='#aa9882'); }
+
+.color:visited { 
+	color: black;
+	text-shadow: none; } 
+  
+.color:hover { 
+	background: #ECF248;
+	color: #212121;
+	text-shadow: none;
+	text-decoration: none;
+  }
+
+.colorfix { 
+	color: #8612c06; 
+	background: #ECF248;
+ 	background: -webkit-gradient(linear, left top, left bottom, from(white), to(#ECF248));
+	background: -moz-linear-gradient(top,  white,  #ECF248);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='white', endColorstr='#ECF248'); }
+ }
+
+.colorfix:hover { color: white; } 
+ 
+.comment { 
+  background: silver;
+}
+
+.imgcaption { margin: 10pt 0pt 0pt 0pt; }
+.img { margin: 15pt 0pt 10pt 0pt; }
+
+.lib p {margin-left: -15pt; }
+.list p {margin-left: -15pt; }
+
+.lib .cat {color: #083a04;}
+.list .cat {color: #083a04;}
+
+body { margin-bottom: 0pt; }
+
+P:first-letter {color: #1e5a18;}

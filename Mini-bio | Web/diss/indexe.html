@@ -1,0 +1,254 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Resume - Sergey Tsykura - Research of neural network models and MatLab software tools for visual pattern recognition</title>
+    <link rel="stylesheet" type="text/css" href="../css/master_style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body lang="en">
+
+    <div id="navigationblock">
+
+        <div id="topblock">
+            <div id="langbox">
+                <a href="index.html"><img src="../images/ru.png" alt="Russian" title="Russian" width="24" height="20"></a> &nbsp; 
+            </div>
+            <div id="donntu">
+                <a href="http://donntu.ru/en" target="_blank">DonNTU</a> &nbsp;
+                <a href="http://masters.donntu.ru/indexe.html" target="_blank" title="Go to Masters' portal">Masters' portal</a>
+            </div>
+        </div> <!-- topblock --> 
+
+        <div id="header">
+            <div id="photomag">
+                <a href="../tsykura_big.jpg">
+                    <img src="../photo.jpg" width=180 height=240 title="DonNTU Master Sergey Tsykura"
+                                         alt="DonNTU Master Sergey Tsykura">
+                </a>
+            </div>
+            <div id="headertext">
+                <h1 class="hdr">Sergey Tsykura</h1>
+                <h3 class="hdr"><a href="https://fisp.iknt.donntu.ru/" target="_blank">Faculty of intellectual systems and programming</a></h3>
+                <h3 class="hdr"><a href="https://kpi.fisp.donntu.ru/" target="_blank">Department of Software Engineering</a></h3>
+                <h3 class="hdr">Speciality <q>Software Engineering</q></h3>
+                <h2 class="hdr">Research of neural network models and MatLab software tools for visual pattern recognition</h2>
+                <h3 class="hdr">Scientific adviser: Ph.D., Associate Professor Oleg Fedyaev</h3>
+            </div>
+        </div> <!-- header -->
+
+    </div>
+
+    <div id="middleblock">
+        <div class="menu-container">
+            <div class="menu-wrapper">
+                <div id="menu">
+                    <li>
+                        <a class="button color" href="../indexe.html">Resume</a>
+                    </li>
+                    <li>
+                        <a class="button colorfix">Abstract</a>
+                    </li>
+                </div>
+            </div>
+        </div>
+	
+		<div id="maintext">
+            
+            <h1>Thesis Abstract</h1>
+            
+            <h2>Table of Contents</h2>
+        
+            <ul class=content>
+                <li class=ct1><a href="#p0">Introduction</a>
+                <li class=ct1><a href="#p1">1. Relevance of the Topic</a>
+                <li class=ct1><a href="#p2">2. Research Objectives and Planned Outcomes</a>
+                
+                <li class=ct1><a href="#p3">3. Review of Research and Developments</a>
+                <li class=ct2><a href="#p31">3.1 International Sources Review</a>
+                <li class=ct2><a href="#p32">3.2 National Sources Review</a>
+                <li class=ct2><a href="#p33">3.3 Local Sources Review</a>
+                
+                <li class=ct1><a href="#p4">4. Neural Network Models for Pattern Recognition</a>
+                <li class=ct2><a href="#p41">4.1 Convolutional Neural Networks</a>
+                <li class=ct2><a href="#p42">4.2 Deep Learning Architectures</a>
+                <li class=ct2><a href="#p43">4.3 Neural Network Training</a>
+                
+                <li class=ct1><a href="#p5">5. Implementation in MatLab</a>
+                <li class=ct2><a href="#p51">5.1 MatLab Tools for Deep Learning</a>
+                <li class=ct2><a href="#p52">5.2 Application Examples</a>
+                
+                <li class=ct1><a href="#p6">Conclusions</a>
+                <li class=ct1><a href="#ref">References</a>
+            </ul>
+            
+            <a name=p0></a>
+            <h2>Introduction</h2>
+            
+            <p>Modern artificial intelligence technologies based on neural network models have revolutionized the field of visual pattern recognition. Over the past decade, the accuracy of computer vision algorithms has surpassed human capabilities in several specialized tasks due to advancements in deep learning and the emergence of new neural network architectures. MatLab holds a special place among tools for researching and implementing neural network models, offering powerful packages for deep learning.</p>
+            
+            <p>The history of artificial neural networks spans over seven decades, beginning with the pioneering work of McCulloch and Pitts who proposed the mathematical model of a neuron. However, the true flourishing of this field began in recent years due to a combination of key factors: exponential growth in computational power, emergence of innovative architectural solutions, and accumulation of vast datasets for training. Modern neural network models such as ResNet, EfficientNet, and Vision Transformer demonstrate impressive results in image classification, object detection, and semantic segmentation tasks. [<a href="#ref1">1</a>]</p>
+            
+            <p>MatLab as a platform for developing neural network solutions offers a unique combination of user-friendly interface, powerful computational capabilities, and a rich set of tools. The Deep Learning Toolbox provides researchers with everything needed to create, train, and deploy networks of various architectures, while the Computer Vision Toolbox contains specialized functions for image processing and analysis.[<a href="#ref2">2</a>] The integration of these tools creates a powerful environment for computer vision research.</p>
+        
+            <a name=p1></a>
+            <h2>1. Relevance of the Topic</h2>
+            
+            <p>In the face of rapidly growing volumes of visual data, traditional computer vision algorithms based on manual feature extraction face significant limitations. Neural network methods capable of automatically extracting hierarchical features directly from data open new horizons for image analysis across various fields of human activity [<a href="#ref3">3</a>]. In medical diagnostics, they enable highly accurate analysis of X-rays, MRI and CT scans, assisting doctors in early disease detection. In industry, neural network models are used for automated quality control, detecting minute defects that might escape human observation.</p>
+            
+            <p>Autonomous transportation systems rely on computer vision algorithms for real-time recognition of road scenes, pedestrians, and other objects. Surveillance systems use neural network models for facial recognition, behavior analysis, and detection of suspicious activities [<a href="#ref4">4</a>]. Satellite monitoring of Earth's surface also reaches new levels through deep learning capabilities, enabling automatic analysis of vast arrays of satellite imagery.</p>
+            
+            <p>Researching MatLab's capabilities for implementing neural network models becomes particularly relevant given this platform's widespread use in scientific research and industrial applications [<a href="#ref5">5</a>]. MatLab offers ready-made architectures of pretrained networks including well-known models like AlexNet, VGG-16, and ResNet, significantly accelerating development. Transfer learning tools allow adapting these models to specific tasks. GPU computing support ensures high performance when working with large datasets. Visualization tools help analyze the training process and interpret results. These capabilities make MatLab a valuable tool for neural pattern recognition research.</p>
+        
+            <a name='p2'></a>
+            <h2>2. Research Objectives and Planned Outcomes</h2>
+            
+            <p>The main objective of this research is a comprehensive analysis of modern neural network architectures for visual pattern recognition tasks and development of methods for their effective implementation in MatLab [<a href="#ref6">6</a>]. The work includes comparative study of various neural network types, evaluation of their effectiveness on specific computer vision tasks, and development of practical recommendations for architecture selection based on problem characteristics.</p>
+            
+            <p>The scientific novelty lies in developing a methodology for comparative analysis of neural network models considering factors such as recognition accuracy, computational complexity, training data requirements, and robustness to imaging conditions. Special attention is given to performance optimization and model adaptation to limited computational resources [<a href="#ref7">7</a>].</p>
+            
+            <p>The practical significance is determined by creating a library of various neural network architecture implementations in MatLab, accompanied by detailed documentation and application examples. The developed materials can be used both in education for training AI specialists and in practical work of engineers solving computer vision problems.</p>
+            
+            <p>The research is expected to yield several scientific outcomes including classification of neural architectures by accuracy and complexity criteria, methodology for model selection based on task characteristics, analysis of training parameter impact on recognition quality, and performance optimization recommendations. The practical output will be a set of tools for rapid prototyping of neural network solutions in MatLab.</p>
+        
+            <a name=p3></a>
+            <h2>3. Review of Research and Developments</h2>
+                       
+            <a name=p31></a>
+            <h3>3.1 International Sources Review</h3>
+            
+            <p>International research in neural pattern recognition is developing at a rapid pace. Fundamental contributions to this field were made by Yann LeCun who proposed the concept of convolutional neural networks that became the foundation of modern computer vision systems. His ideas about local receptive fields and weight sharing enabled creation of models capable of efficient image processing [<a href="#ref8">8</a>]. Geoffrey Hinton, another deep learning pioneer, developed methods for training deep neural networks, overcoming the vanishing gradient problem. His work on backpropagation and regularization mechanisms laid the foundation for modern approaches to neural network training.</p>
+        
+            <p>Particular attention deserves research by Fei-Fei Li's group related to creation of the large-scale ImageNet dataset and organization of the ImageNet Large Scale Visual Recognition Challenge. These initiatives catalyzed deep learning development in computer vision by providing researchers with extensive labeled data and clear algorithm comparison criteria. The competition results clearly demonstrated the superiority of deep neural networks over traditional computer vision methods.</p>
+        
+            <p>In recent years, special interest has been drawn to transformer architecture applications in computer vision. Originally developed for natural language processing, transformers show outstanding results in image analysis tasks [<a href="#ref9">9</a>]. Models like Vision Transformer (ViT) demonstrate that attention mechanisms can successfully replace traditional convolutional operations, opening new perspectives for field development.</p>
+            
+            <a name=p32></a>
+            <h3>3.2 National Sources Review</h3>
+            
+            <p>Domestic scientific literature extensively covers neural pattern recognition problems. Russian researchers have made significant contributions to neural network theory by developing new architectures and training methods adapted to specific problem characteristics. Applied research focuses particularly on efficient implementation of neural algorithms under limited computational resources, which is especially relevant for embedded systems and mobile applications.</p>
+        
+            <p>Methodological aspects of neural network applications in machine vision systems are thoroughly investigated in domestic research. Approaches are being developed to enhance algorithm robustness to changing imaging conditions, lighting variations, and viewing angles. Special attention is paid to neural network decision interpretability, which is crucial for critical applications like medical diagnostics or autonomous transportation systems.</p>
+            
+            <p>In industrial computer vision applications, Russian researchers propose innovative solutions for automated quality control, process monitoring, and predictive maintenance. Specialized neural architectures are being developed optimized for specific defect and anomaly types. These developments find practical applications in industrial enterprises, facilitating digital transformation of manufacturing.</p>
+            
+            <a name=p33></a>
+            <h3>3.3 Local Sources Review</h3>
+            
+            <p>Donetsk National Technical University conducts active research on neural network applications for image processing. Methods are being developed to optimize neural architectures for resource-constrained environments, particularly relevant for embedded systems and IoT devices. Approaches to accelerate deep neural network training using specialized initialization algorithms and adaptive optimization methods are being investigated.</p>
+        
+            <p>Special attention is given to applied computer vision tasks in industry and medicine. Systems are being developed for automated product quality control, disease diagnosis from medical images, and technological process monitoring. These studies combine fundamental neural network research with practical implementation in specific domains.</p>
+        
+            <p>A promising direction involves creating hybrid architectures combining advantages of different image processing approaches. Integration of traditional computer vision algorithms with deep learning methods is being explored to combine their strengths and overcome individual limitations [<a href="#ref10">10</a>].</p>
+        
+            <a name=p4></a>
+            <h2>4. Neural Network Models for Pattern Recognition</h2>
+                            
+            <p>Modern neural network models for visual pattern recognition exhibit great architectural diversity, each with specific features and application areas. Their evolution reflects the search for optimal ways to represent and process visual information, from simple perceptrons to complex ensembles of specialized networks.</p>
+        
+            <a name=p41></a>
+            <h3>4.1 Convolutional Neural Networks</h3>
+            
+            <p>Convolutional Neural Networks (CNNs) have become the gold standard in computer vision tasks due to their ability to automatically extract hierarchical features from images [<a href="#ref11">11</a>]. CNNs are based on convolutional layers that apply filter sets to input images, extracting local features. The convolution operation has important properties: local connectivity accounting for spatial locality of features, and weight sharing significantly reducing model parameters.</p>
+            
+            <div class=img>
+                <img src="https://masters.donntu.ru/2023/fisp/sukhanov/diss/images/animation_raspoznavanie.gif" alt="Convolutional Neural Network Architecture">
+                <p class=imgcaption>Figure 1 – Convolutional Neural Network Architecture</p>
+                <p class=imgcaption>(animation, size – 57KB, 7 slides)</p>
+            </div>
+        
+            <p>CNN evolution progressed from simple architectures like LeNet-5 capable of recognizing handwritten digits to modern ResNet and EfficientNet solving complex classification tasks for thousands of object categories. AlexNet, the 2012 ImageNet competition winner, demonstrated the effectiveness of deep networks and techniques like ReLU activations and dropout [<a href="#ref12">12</a>]. The VGG architecture showed advantages of building deep networks from uniform blocks with small convolution kernels. ResNet introduced residual connections enabling successful training of networks with hundreds of layers. EfficientNet proposed a methodology for balanced scaling of various network parameters to achieve optimal accuracy-computation efficiency tradeoffs.</p>
+        
+            <a name=p42></a>
+            <h3>4.2 Deep Learning Architectures</h3>
+            
+            <p>Besides classical CNNs, other deep learning architectures find applications in computer vision. Recurrent Neural Networks (RNNs), particularly their Long Short-Term Memory (LSTM) variants, are used for image sequence analysis, e.g., in video processing or image caption generation. These networks can account for temporal dependencies between frames, important for understanding dynamic scenes.</p>
+            
+            <p>Generative Adversarial Networks (GANs) represent a fundamentally different approach based on simultaneous training of two competing networks - a generator creating images and a discriminator distinguishing real from generated images. This framework finds applications in tasks like dataset augmentation, image super-resolution, style transfer, and many others [<a href="#ref13">13</a>].</p>
+            
+            <div class=img>
+                <img src="images/diagram1.jpg" alt="Generative Adversarial Network Architecture">
+                <p class=imgcaption>Figure 2 – Generative Adversarial Network Architecture</p>
+            </div>
+        
+            <p>Transformers, originally developed for natural language processing, have been successfully adapted for computer vision tasks in recent years. Models like Vision Transformer (ViT) demonstrate that attention mechanisms can effectively replace traditional convolutional operations. These architectures excel at modeling global dependencies in images and show outstanding results on large-scale datasets.</p>
+        
+            <a name=p43></a>
+            <h3>4.3 Neural Network Training</h3>
+            
+            <p>Training neural networks for pattern recognition represents a complex optimization problem requiring careful parameter selection and regularization methods. Modern training approaches include adaptive optimization methods like Adam and RMSprop that automatically adjust learning rates for each network parameter. Regularization techniques preventing overfitting play crucial roles: dropout, L2 regularization, batch normalization, and data augmentation.</p>
+            
+            <p>Transfer learning has become a standard approach when working with deep neural networks. Instead of training from scratch, models pretrained on large datasets (e.g., ImageNet) are fine-tuned on target datasets. This is particularly useful when labeled data for specific tasks is limited. Fine-tuning allows adapting pretrained models to new tasks, often achieving high accuracy even with few training examples.</p>
+            
+            <div class=img>
+                <img src="images/diagram2.jpg" alt="Neural Network Training Process">
+                <p class=imgcaption>Figure 3 – Neural Network Training Process</p>
+            </div>
+        
+            <p>Trained model quality is evaluated using various metrics depending on specific tasks. Image classification typically uses accuracy, precision, recall and F1-score. Object detection tasks require metrics like mAP (mean Average Precision) accounting for both classification accuracy and localization quality. Analysis of learning curves and confusion matrices helps identify model problems and improvement directions.</p>
+        
+            <a name=p5></a>
+            <h2>5. Implementation in MatLab</h2>
+            
+            <p>MatLab provides comprehensive tools for working with neural networks through the Deep Learning Toolbox and Computer Vision Toolbox. These tools enable implementation of all discussed architectures and their comparative analysis, from simple experiments to industrial deployment.</p>
+        
+            <a name=p51></a>
+            <h3>5.1 MatLab Tools for Deep Learning</h3>
+            
+            <p>The Deep Learning Toolbox offers a rich set of functions for creating, training, and deploying neural networks of various architectures. Users can work with both ready pretrained models (AlexNet, VGG-16, ResNet etc.) and create custom architectures from scratch [<a href="#ref14">14</a>]. Transfer learning tools allow adapting pretrained networks to new tasks, particularly useful with limited data. Automatic differentiation support simplifies gradient computation for custom architectures and loss functions.</p>
+            
+            <p>The Computer Vision Toolbox complements Deep Learning Toolbox capabilities with specialized functions for image preprocessing, data augmentation, feature visualization, and classification quality assessment. Integration with Parallel Computing Toolbox accelerates training through distributed GPU and cluster computing. For model deployment, MatLab offers code generation and industrial system integration tools.</p>
+        
+            <a name=p52></a>
+            <h3>5.2 Application Examples</h3>
+            
+            <p>Consider a practical example of implementing a convolutional neural network for image classification in MatLab. First, the network architecture is created including input layer, several convolutional blocks (convolution, batch normalization, ReLU activation, pooling), fully connected layers and classification output layer. Then training parameters are configured: optimization algorithm, learning rate, number of epochs etc. The network is then trained on labeled data with process monitoring through various plots and metrics.</p>
+            
+            <p>For more complex tasks like object detection or semantic segmentation, MatLab provides specialized architectures and functions. For example, Faster R-CNN or YOLO can be used for object detection, while U-Net or SegNet are available for segmentation. All these models are supported in Deep Learning Toolbox and can be adapted for specific applications.</p>
+            
+            <p>MatLab pays special attention to neural network decision interpretability. Tools are available for visualizing activation maps, highlighting image regions most influencing network decisions, and analyzing feature importance [<a href="#ref15">15</a>]. These capabilities are crucial for critical applications where model decisions need to be understood and explained.</p>
+        
+            <a name=p6></a>
+            <h2>Conclusions</h2>
+            
+            <p>This research yields several important conclusions about current neural network methods for visual pattern recognition and their MatLab implementation. Neural networks have demonstrated outstanding results across a wide spectrum of computer vision tasks, surpassing traditional algorithms in accuracy. Architectural diversity from classical CNNs to modern transformers enables optimal solution selection for specific problems considering accuracy, speed, and computational resource requirements.</p>
+            
+            <p>MatLab provides powerful and convenient tools for working with neural network models covering the entire development cycle - from prototyping to industrial deployment. Ready pretrained models and transfer learning tools significantly accelerate solution development for new tasks. Extensive visualization and analysis capabilities enable deeper understanding of model operation and architecture improvement.</p>
+            
+            <p>Future development prospects for neural pattern recognition methods involve creating more efficient architectures capable of learning from smaller datasets, consuming fewer computational resources, and providing interpretable results. Special interest lies in integrating neural networks with traditional computer vision methods to combine their strengths. Development of automated machine learning (AutoML) tools will simplify model creation and tuning for specialists from various domains.</p>
+            
+            <p>This work's results can be used both in education for training AI specialists and in practical work of engineers developing computer vision systems. The developed methodologies and tools facilitate more informed selection of neural network architectures and effective solution of pattern recognition tasks using MatLab.</p>
+                    
+            <p>At the time of writing this abstract, the master's thesis is not yet completed. Final completion: June 2023. The full text and related materials can be obtained from the author or advisor after this date.</p>
+            
+            <a name=ref></a>
+            <h2>References</h2>
+            <ol>
+                <li><a name="ref1"></a>LeCun Y., Bengio Y., Hinton G. Deep learning – Nature, Vol. 521, no. 7553, 2015, pp. 436-444.
+                <li><a name="ref2"></a>Goodfellow I., Bengio Y., Courville A. Deep Learning – MIT Press, 2016.
+                <li><a name="ref3"></a>Deng J., Dong W., Socher R., Li L.-J., Li K., Fei-Fei L. ImageNet: A large-scale hierarchical image database – IEEE Conference on Computer Vision and Pattern Recognition, 2009.
+                <li><a name="ref4"></a>Vaswani A., Shazeer N., Parmar N. et al. Attention Is All You Need – Advances in Neural Information Processing Systems, 2017.
+                <li><a name="ref5"></a>Galushkin A.I. Neural Networks: Fundamentals – Moscow: Hotline-Telecom, 2010.
+                <li><a name="ref6"></a>Tarkov D.A. Neural Network Pattern Recognition Algorithms – St. Petersburg: BHV-Petersburg, 2018.
+                <li><a name="ref7"></a>Krasovsky A.A. Neural Networks in Machine Vision Systems – Moscow: Radio i Svyaz, 2016.
+                <li><a name="ref8"></a>Petrenko A.I. Optimization of Neural Network Architectures for Technical Object Recognition – DonNTU Bulletin, 2020.
+                <li><a name="ref9"></a>Fedyaev O.I., Tsykura S.V. Methods for Accelerating Convolutional Neural Network Training – Proceedings of the International Conference "Information Technologies and Systems", 2022.
+                <li><a name="ref10"></a>Ivanov S.M. Application of Attention Mechanism Neural Networks for Medical Image Analysis – Journal "Artificial Intelligence and Decision Making", 2021.
+                <li><a name="ref11"></a>He K., Zhang X., Ren S., Sun J. Deep Residual Learning for Image Recognition – IEEE Conference on Computer Vision and Pattern Recognition, 2016.
+                <li><a name="ref12"></a>Tan M., Le Q. EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks – ICML 2019.
+                <li><a name="ref13"></a>Dosovitskiy A., Beyer L., Kolesnikov A. et al. An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale – ICLR 2021.
+                <li><a name="ref14"></a>MathWorks. Deep Learning Toolbox Documentation – 2022.
+                <li><a name="ref15"></a>Russakovsky O., Deng J., Su H. et al. ImageNet Large Scale Visual Recognition Challenge – International Journal of Computer Vision, 2015.
+            </ol>
+        
+        </div> <!-- maintext -->
+	</div> <!-- middleblock -->
+
+	<div id="menub">
+		<a class="mitemb" href="../indexe.html">Resume</a>
+	</div>
+
+</body>
+</html>

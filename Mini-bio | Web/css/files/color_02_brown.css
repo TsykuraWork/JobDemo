@@ -1,0 +1,146 @@
+/* -------------------- ÷‚ÂÚÓ‚‡ˇ ÒıÂÏ‡ - ¡≈∆≈¬€… -------------------------- */
+
+
+#header h1 { color: #ffe8c5; font: bold 23pt/17pt Garamond, serif; }
+
+#header h2 { color: #ffe5bd; font: bold 21pt/13pt Garamond, sans serif; }
+ 
+#header h3 { color: #fffcef; font: normal 19pt/13pt Garamond, sans serif; }
+
+h1 { font: bold 20pt Garamond, serif; color: #8f250e; } 
+
+h2 { font: bold 16pt Garamond, serif; color: #8f250e; }
+ 
+h3 { font: bold 14pt Garamond, serif; color: #8f250e; }
+
+p {	font: 16pt/100% Garamond, serif; }
+ 
+li { font: 15pt/90% Garamond, serif; }
+
+a {	font: bolder 16pt Garamond, serif; color: #425a40;}
+
+a:hover { text-decoration: none; }
+
+a:visited {	color: #bc7a4b; }
+
+#topblock { 
+  border: none; 
+  background: #576c55;
+  padding-bottom: 0pt; 
+  margin-bottom: 0pt;
+  }
+
+#donntu a {	font: 14pt Garamond, serif; color: white; }
+
+#donntu a:visited {	color: white; }
+
+#header {
+  min-height: 260px;
+	background: #82997F; 
+	background: -webkit-gradient(linear, left top, left bottom, from(#576c55), to(#82997F));           
+	background: -moz-linear-gradient(top,  #b2ab73,  #82997F);                                           
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#b2ab73', endColorstr='#82997F'); 
+}
+
+#headertext {
+  padding-top: 1pt;
+  padding-bottom: 1pt;
+}
+
+#photomag { padding-top: 1pt;}
+
+#middleblock { background: #fadfa4; border: none;}
+#maintext { background: #fadfa4; border: none; }
+
+#menu {
+	background: #E8AA72; 
+	background: -webkit-gradient(linear, left top, left bottom, from(#E8AA72), to(#fadfa4));           
+	background: -moz-linear-gradient(top,  #E8AA72,  #fadfa4);                                           
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#E8AA72', endColorstr='#fadfa4'); 
+  border: none;
+}
+
+#menub { 
+	background: #C9765C;	
+	border: none; }
+  
+.mitemb         {	color: white; font-size: 16pt; padding-left: 3pt; padding-right: 3pt;}
+.mitemb:hover   { color: white; background: #576c55; }
+.mitemb:visited { color: #fdd9cd; }
+ 
+table#resume                  { font: 15pt Garamond, serif;  border-collapse:collapse;}
+table#resume td.c1            { font-weight: bold; }
+table#resume tr.odd           { background: none; }  
+table#resume tr.even          { background: none; }
+table#resume tr.odd:hover,
+table#resume tr.even:hover    { background: LightYellow;}  
+
+table.search                  { width: 90%; }
+table.search                  { font: 12pt Garamond, serif;}
+table.search tr.odd           { background: none; }      
+table.search tr.even          { background: none; }
+table.search tr.odd:hover,
+table.search tr.even:hover    { background: LightYellow;}  
+
+table.search td.c1            { font-size: 15pt; }
+table.search td.cn a          { color: Maroon; font-size: 16pt;  }
+table.search td.cn a:visited  { color: #bc7a4b; } 
+table.search td.cn a:hover    { color: firebrick; }    
+
+table.search td.cspan p {  
+  color: #5f5f5f; 
+  font: 900 16pt/80% Garamond, serif;
+  text-indent: 0pt; }
+
+table.search tr td { border: 1pt solid #d9b76e; } 
+
+.button {
+	font: 900 16pt/70% Garamond, serif;
+  margin: .7em .2em .11em .2em;
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .2em;
+  border: none;
+ 
+	}
+
+.color { 
+  text-shadow: none;
+	color: #4a3630; 
+	background: #fadfa4;
+	background: -webkit-gradient(linear, left top, left bottom, from(white), to(#fadfa4));              
+	background: -moz-linear-gradient(top,  #fff,  #84a4bf);                                             
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='white', endColorstr='#84a4bf'); }
+
+.color:visited { 
+	color: #61534f; 
+	text-shadow: none; } 
+  
+.color:hover { 
+	background: #007ead;
+	color: #212121;
+	text-shadow: none;
+	text-decoration: none;    
+	background: -webkit-gradient(linear, left top, left bottom, from(white), to(#C9765C));
+	background: -moz-linear-gradient(top,  white,  #b4351a);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='white', endColorstr='#b4351a'); }
+
+.colorfix { 
+	color: white; 
+	background: #b4351a;           
+ }
+
+.colorfix:hover { color: white; } 
+ 
+.comment { 
+  background: tan;
+}
+
+.imgcaption { margin: 10pt 0pt 0pt 0pt; }
+.img { margin: 15pt 0pt 10pt 0pt; }
+
+.lib p {margin-left: -15pt; }
+.list p {margin-left: -15pt; }
+
+body { margin-bottom: 0pt; }
+
