@@ -1,0 +1,30 @@
+{
+  "info": {
+    "name": "1C Orders API (DummyJSON)",
+    "_postman_id": "1c-orders-dummyjson",
+    "description": "Коллекция для тестирования REST API 1С, подключенного к DummyJSON.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "GET External Orders (DummyJSON)",
+      "request": {
+        "method": "GET",
+        "url": { "raw": "http://localhost/api/orders" }
+      }
+    },
+    {
+      "name": "POST Create Order (DummyJSON)",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"userId\": 1,\n  \"products\": [\n    { \"id\": 1, \"quantity\": 2 },\n    { \"id\": 50, \"quantity\": 1 }\n  ]\n}"
+        },
+        "url": { "raw": "http://localhost/api/orders" }
+      }
+    }
+  ]
+}
+
